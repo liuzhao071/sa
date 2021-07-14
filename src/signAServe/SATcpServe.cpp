@@ -44,7 +44,7 @@ _client_info::_client_info() :
 
 bool _client_info::operator <(const _client_info& other)
 {
-    return ((int)(this->socket) < (int)(other.socket));
+    return ((qintptr)(this->socket) < (qintptr)(other.socket));
 }
 
 

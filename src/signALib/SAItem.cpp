@@ -42,7 +42,7 @@ public:
         : q_ptr(par)
         , m_parent(nullptr)
         , m_fieldRow(-1)
-        , m_id(reinterpret_cast<int>(par))
+        , m_id(reinterpret_cast<qintptr>(par))
         , m_tree(nullptr)
     {
         m_propertys[SAItem::RoleName] = QString();

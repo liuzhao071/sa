@@ -58,7 +58,7 @@ void SAMainWindow::setHidden()
 
 int SAMainWindow::getID() const
 {
-    return (reinterpret_cast<int>(this));
+    return (reinterpret_cast<qintptr>(this));
 }
 
 

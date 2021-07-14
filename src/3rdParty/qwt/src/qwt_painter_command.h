@@ -16,6 +16,7 @@
 #include <qimage.h>
 #include <qpolygon.h>
 
+#include <qpainterpath.h>
 class QPainterPath;
 
 /*!

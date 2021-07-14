@@ -31,6 +31,7 @@ class QwtColorMap;
 class QwtInterval;
 
 class QTextDocument;
+#include <qpainterpath.h>
 class QPainterPath;
 
 /*!

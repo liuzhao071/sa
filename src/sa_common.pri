@@ -13,3 +13,8 @@ CONFIG(debug, debug|release){
 }
 SA_LIBDIR = $$SA_BIN_DIR/libs
 SA_PLUGIN_LIBDIR = $$SA_BIN_DIR/plugin
+
+msvc {
+    QMAKE_CFLAGS += /utf-8
+    QMAKE_CXXFLAGS += /utf-8
+}

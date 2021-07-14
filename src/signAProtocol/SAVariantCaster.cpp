@@ -29,6 +29,8 @@
 #include <QVector3D>
 #include <QVector4D>
 #include <QStringList>
+#include <cmath>
+using namespace std;
 
 bool saFuzzyCompare(double a, double b, double esp)
 {

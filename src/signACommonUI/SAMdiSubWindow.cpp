@@ -22,7 +22,7 @@ SAMdiSubWindow::SAMdiSubWindow(QWidget *parent, Qt::WindowFlags flags) :
     m_birthdate(QDateTime::currentDateTime().toString(Qt::LocalDate))
 {
 	setAttribute(Qt::WA_DeleteOnClose);
-    m_id = reinterpret_cast<int>(this);//获取一个唯一id
+    m_id = reinterpret_cast<qintptr>(this);//获取一个唯一id
 }
 
 
